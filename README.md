@@ -24,3 +24,20 @@ Welcome to my Python learning repository.
 
 ---
 📚 This repository will be updated after every Python class.
+
+
+## Day 2
+
+### Topics Covered
+
+- varibles
+- keywords
+- datatypes
+- indexing
+- slicing
+- input()
+-  string
+- indentation
+
+### Notes
+---
