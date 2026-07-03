@@ -83,15 +83,14 @@ Today I continued learning Python fundamentals and practiced several important c
 
 #Notes with and practical example----............................................
 
-
-   1. Boolean Data Type
-is_present = F
-alse
-print(is_present)
+1. Boolean Data Type
+ - is_present = False
+   print(is_present)
 
 Output:
 
-False
+False 
+
 2. Numeric Data Types
 x = 89
 print(type(x))
@@ -103,6 +102,7 @@ Output:
 <class 'int'>
 89.0
 (89+0j)
+
 3. String Indexing
 x = "Programming"
 print(x[0])
@@ -112,12 +112,18 @@ Output:
 
 P
 g
+
+
 4. Taking User Input
 name = input("Enter your name: ")
 print(name)
+
+
 5. Type Casting
 num = int(input("Enter a number: "))
 print(num + 10)
+
+
 6. Average of Three Numbers
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -126,6 +132,8 @@ c = int(input("Enter third number: "))
 avg = (a + b + c) / 3
 
 print("Average =", avg)
+
+
 7. Reverse a Number
 num = int(input("Enter a number: "))
 print(str(num)[::-1])
@@ -134,30 +142,34 @@ Example
 
 Input : 12345
 Output: 54321
-📂 Python Data Structures
-List
+
+# 📂 Python Data Structures
+ - List
 x = ["Python", 45, True, 8.5]
 print(x)
 print(x[0])
 print(x[1:3])
 
-Features
+ - Features
 
-Ordered
-Mutable
-Allows duplicate values
-Supports indexing
-Tuple
+ - Ordered
+ - Mutable
+ - Allows duplicate values
+ - Supports indexing
+
+# Tuple
 x = ("Python", 45, True)
 print(x)
 
-Features
+ - Features
 
-Ordered
-Immutable
-Allows duplicate values
-Supports indexing
-Dictionary
+ - Ordered
+ - Immutable
+ - Allows duplicate values
+ - Supports indexing
+
+
+# Dictionary
 student = {
     "name": "Nishant",
     "course": "Python",
@@ -166,21 +178,21 @@ student = {
 
 print(student["name"])
 
-Features
+ - Features
 
-Stores data as key-value pairs
-Keys are unique
-Mutable
-📖 Commands & Functions Learned
+   - Stores data as key-value pairs
+   - Keys are unique
+   - Mutable
+# 📖 Commands & Functions Learned
 Command	Purpose
-input()	Takes input from the user
-print()	Displays output
-type()	Shows the data type
-int()	Converts value to integer
-float()	Converts value to float
-complex()	Converts value to complex number
-str()	Converts value to string
-[::-1]	Reverses a string
+- input()	Takes input from the user
+- print()	Displays output
+- type()	Shows the data type
+- int()	Converts value to integer
+- float()	Converts value to float
+- complex()	Converts value to complex number
+- str()	Converts value to string
+- [::-1]	Reverses a string
 
 ### Day 3 Complete ✅
 Learning st
